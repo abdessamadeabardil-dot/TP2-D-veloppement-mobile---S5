@@ -32,5 +32,3 @@ const lignes = etudiants.map((e) => {
 for (const ligne of lignes) {
 console.log(ligne);
 }
-const { nom, note } = etudiants[0];
-console.log(`${nom} : ${note}/20`);
